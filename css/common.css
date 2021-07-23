@@ -24,18 +24,19 @@ ul { list-style: none; }
 
 #nav { width: 100%; }
 #main_nav {background-color: #4d4d4d; height: 60px; line-height: 60px; }
-#main_nav ul {
+#main_nav > ul {
     overflow: hidden;
     width: 960px;
     margin: 0 auto;
     padding-top: 15px;
     padding-bottom: 15px;
+    display: -webkit-box;
 }
-#main_nav ul li {
+#main_nav > ul > li {
     width: 192px;
     float: left;
 }
-#main_nav ul li a {
+#main_nav > ul > li > a {
     color: #fff;
     font-size: 18px;
     font-weight: bold;
@@ -56,12 +57,12 @@ ul { list-style: none; }
     padding-top: 15px;
     padding-bottom: 15px;
 }
-#sub_mwnu .menu {
+#sub_menu > .menu {
     width: 192px;
     float: left;
 }
-#sub_mwnu .menu li { padding-bottom: 8px; }
-#sub_mwnu .menu li a { color: #777; font-size: 15px; }
+#sub_mwnu > .menu li { padding-bottom: 8px; }
+#sub_mwnu > .menu li a { color: #777; font-size: 15px; }
 
 
 
