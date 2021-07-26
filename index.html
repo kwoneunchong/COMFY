@@ -7,10 +7,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link rel="stylesheet" href="library/fontawesome-free-5.15.3-web/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+    <!-- gnb -->
+    <div id=logo data-aos="flip-down">
+        <h1>COMFY</h1>
+    </div>
     <div id="nav">
         <div id="main_nav">
             <ul>
@@ -44,6 +49,64 @@
         </div>
     </div>
 
+    <!-- Swiper -->
+    <div class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">Slide 1</div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- 섹션01 -->
+    <div id="section01">
+        <div class="wrap">
+            <div class="leftImg">
+                <img src="https://via.placeholder.com/624x500.jpg" alt="300 * 300 size image">
+            </div>
+            <div class="rightImg">
+                <img src="https://via.placeholder.com/540x230.jpg" alt="" style="margin-bottom: 20px;">
+                <img src="https://via.placeholder.com/540x230.jpg" alt="" style="margin-top: 20px;">
+            </div>
+        </div>
+    </div>
+
+    <!-- 섹션02 -->
+    <div class="wrap">
+        <div class="title">
+            <h3>DAY&NIGHT 바로가기</h3>
+        </div>
+        <div id="slideIn">
+            <div class="gomenu" data-aos="fade-up" data-aos-duration="2000">
+                <a href="#concept01"><img src="https://via.placeholder.com/280x280.jpg" alt="이미지"></a>
+                <p class="subtitle">Concept  ></p>
+            </div>
+            <div class="gomenu" data-aos="fade-up" data-aos-duration="2000">
+                <a href="#concept02"><img src="https://via.placeholder.com/280x280.jpg" alt="이미지"></a>
+                <p class="subtitle">Store gallery  ></p>		
+            </div>
+            <div class="gomenu" data-aos="fade-up" data-aos-duration="2000">
+                <a href="#concept03"><img src="https://via.placeholder.com/280x280.jpg" alt="이미지"></a>
+                <p class="subtitle">How to use  ></p>	
+            </div>
+            <div class="gomenu" data-aos="fade-up" data-aos-duration="2000">
+                <a href="#concept04"><img src="https://via.placeholder.com/280x280.jpg" alt="이미지"></a>
+                <p class="subtitle">Character  ></p>	
+            </div>
+        </div>
+    </div>
+    <hr style="border: solid 1px #f0f0f0;">
+
+
 
     <script src="js/jquery-3.6.0.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
@@ -52,7 +115,26 @@
     integrity="sha256-FgpCb/KJQ1LNf0u91ta32o/NMZx1twRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <scrip src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
     integrity="sha256-VazP97Z CwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/common.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
 
     <script>
       AOS.init();
