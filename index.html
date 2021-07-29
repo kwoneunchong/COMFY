@@ -76,7 +76,7 @@
     <div id="section01">
         <div class="wrap">
             <div class="leftImg">
-                <img src="https://via.placeholder.com/624x500.jpg" alt="300 * 300 size image">
+                <img src="images/section01-1.png" alt="">
             </div>
             <div class="rightImg">
                 <img src="https://via.placeholder.com/540x237.jpg" alt="" style="margin-bottom: 26px;">
@@ -169,10 +169,10 @@
           </div>
         </div>
         <div class="swiper-pagination"></div>
-      </div>
+    </div>
 
       <!-- 섹션04 -->
-      <div id="section04">
+    <div id="section04">
         <div class="wrap">
             <div class="leftImg04">
                 <img src="https://via.placeholder.com/400x500.jpg">
@@ -235,9 +235,33 @@
                             </div>
                         </div>
                     </div>
-                   
                 </div>
             </div>
+        </div>
+    </div>
+
+
+    <!-- 섹션05 슬라이드 띠배너2 -->
+
+    <div class="swiper-container mySwiper2" style="height: 200px;">
+        <div class="swiper-wrapper" style="height: 200px;">
+          <div class="swiper-slide" style="height: 200px;">
+            <img src="images/slide_banner02.png" style="height: 200px;">
+          </div>
+          <div class="swiper-slide" style="height: 200px;">
+            <img src="images/slide_banner01.png" style="height: 200px;">
+          </div>
+          <div class="swiper-slide" style="height: 200px;">
+            <img src="images/slide_banner03.png" style="height: 200px;">
+          </div>
+          <div class="swiper-slide" style="height: 200px;">
+            <img src="images/slide_banner04.png" style="height: 200px;">
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+
 
 
 
@@ -279,6 +303,24 @@
               },
             });
     </script>
+        <script>
+            var swiper = new Swiper(".mySwiper2", {
+              spaceBetween: 30,
+              centeredSlides: true,
+              autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+              },
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+              },
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+            });
+        </script>
 
     <script>
       AOS.init();
