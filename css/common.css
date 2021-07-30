@@ -136,7 +136,7 @@ ul { list-style: none; }
 #nav { display: none; }
 #nav_mobile { 
     overflow: hidden;
-    position: relative;;
+    position: relative;
     width: 767px;
     box-sizing: border-box;
 }
