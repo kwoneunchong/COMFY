@@ -35,7 +35,6 @@ ul { list-style: none; }
 
 #logo {
     margin: 0 auto;
-    width: 960px;
     text-align: center;
     /* height: 120px;
     line-height: 120px; */
@@ -44,6 +43,7 @@ ul { list-style: none; }
 .logoid {
   /* font-family: 'Ubuntu', sans-serif; */
   /* font-family: 'Dosis', sans-serif; */
+  text-align: center;
   font-family: 'Caveat', cursive;
   margin-top: 40px;
   color: #71625a;
@@ -58,6 +58,7 @@ ul { list-style: none; }
     /* font-family: 'Raleway', sans-serif; */
     font-family: 'Montserrat', sans-serif;
     color: #71625a;
+    text-align: center;
     font-weight: 400;
     font-size: 14px;
     height: 22px;
@@ -129,6 +130,46 @@ ul { list-style: none; }
     color: #b9aba4;
     font-weight: 500;
 } 
+
+/*0 ~ 767*/
+@media screen and (max-width: 767px) {
+#nav { display: none; }
+#nav_mobile { 
+    overflow: hidden;
+    position: relative;;
+    width: 767px;
+    box-sizing: border-box;
+}
+#main_nav_mobile {
+    background-color: #DBCEC3;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    top: 120px;
+}
+#main_nav_mobile > ul {
+    overflow: hidden;
+    width: 100vw;
+    margin: 10px;
+    padding-bottom: 5px;
+    display: -webkit-box;
+}
+#main_nav > ul > li {
+    float: left;
+    margin: 0 auto;
+    width: 25%;
+    text-align: center;
+}
+#main_nav > ul > li > a {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    color: #71625a;
+    font-size: 16px;
+}
+
+#main_nav > ul > li > a:hover {
+    font-weight: 600;
+}
 
 
 
