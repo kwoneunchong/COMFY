@@ -64,7 +64,7 @@
     </div>
 
     <!-- 상단 슬라이드 -->
-    <div class="swiper-container mySwiper">
+    <div class="swiper-container mySwiper" id=slider_main>
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <img src="images/slide_banner02.png">
@@ -77,6 +77,27 @@
           </div>
           <div class="swiper-slide">
             <img src="images/slide_banner04.png">
+          </div>
+        </div>
+        <div class="swiper-button-next" style="color: #fff;"></div>
+        <div class="swiper-button-prev" style="color: #fff;"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- 상단 슬라이드- 모바일 -->
+    <div class="swiper-container mySwiper_m" style="height: 300px;" id=slider_mobile>
+        <div class="swiper-wrapper" style="height: 300px;">
+          <div class="swiper-slide" style="height: 300px;">
+            <img src="images/slide_banner02.png" style="height: 300px;">
+          </div>
+          <div class="swiper-slide" style="height: 300px;">
+            <img src="images/slide_banner01.png" style="height: 300px;">
+          </div>
+          <div class="swiper-slide" style="height: 300px;">
+            <img src="images/slide_banner06.png" style="height: 300px;">
+          </div>
+          <div class="swiper-slide" style="height: 300px;">
+            <img src="images/slide_banner04.png" style="height: 300px;">
           </div>
         </div>
         <div class="swiper-button-next" style="color: #fff;"></div>
@@ -97,7 +118,7 @@
                         <p class="titletSub">Comfy는 안락한 기분좋은 이라는 뜻으로
                             <br />편안한 꿈친구가 되고싶은 마음을 담아 제작되었습니다.
                         </p>
-                        <input type="button" class="btn01" value="자세히 보기  >" style="width:160px; margin-top: 40px; color: #fff; background:#71625a; font-size: 12px; padding:5px 20px; border-radius: 0.2em; border: none;
+                        <input type="button" class="btn01" value="자세히 보기  >" style="width:160px; margin-top: 16px; color: #fff; background:#71625a; font-size: 12px; padding:5px 20px; border-radius: 0.2em; border: none;
                         font-weight: 500;" />
                     </div>
                 </div>
@@ -115,48 +136,48 @@
             </div>
             <div id="slideIn">
                 <div class="gomenu" data-aos="fade-up" data-aos-duration="2000">
-                    <a href=""><img src="https://via.placeholder.com/280x280.jpg" alt="이미지" style="margin-right: 26.6px;"></a>
-                    <div class="subtxt">
-                        <div id="subt_01">
+                    <a href=""><img src="https://via.placeholder.com/280x280.jpg" class="rImgmargine1" alt="이미지"></a>
+                    <div class="subtxt1">
+                        <div class="subt_01">
                             <p class="subtitle">뽀송 여름이불</p>
                         </div>
-                        <div id="subt_02">
+                        <div class="subt_02">
                             <p class="pick">♡</p>
                             <p class="price">28,000 원</p>
                         </div>
                     </div>
                 </div>
                 <div class="gomenu" data-aos="fade-up" data-aos-duration="2000">
-                    <a href=""><img src="https://via.placeholder.com/280x280.jpg" alt="이미지" style="margin-right: 26.6px;"></a>
-                    <div class="subtxt">
-                        <div id="subt_01">
+                    <a href=""><img src="https://via.placeholder.com/280x280.jpg" class="rImgmargine2" alt="이미지"></a>
+                    <div class="subtxt2" >
+                        <div class="subt_01">
                             <p class="subtitle">뽀송 여름이불</p>
                         </div>
-                        <div id="subt_02">
+                        <div class="subt_02">
                             <p class="pick">♡</p>
                             <p class="price">28,000 원</p>
                         </div>
                     </div>
                 </div>
                 <div class="gomenu" data-aos="fade-up" data-aos-duration="2000">
-                    <a href=""><img src="https://via.placeholder.com/280x280.jpg" alt="이미지" style="margin-right: 26.6px;"></a>
-                    <div class="subtxt">
-                        <div id="subt_01">
+                    <a href=""><img src="https://via.placeholder.com/280x280.jpg" class="rImgmargine1" alt="이미지"></a>
+                    <div class="subtxt1">
+                        <div class="subt_01">
                             <p class="subtitle">뽀송 여름이불</p>
                         </div>
-                        <div id="subt_02">
+                        <div class="subt_02">
                             <p class="pick">♡</p>
                             <p class="price">28,000 원</p>
                         </div>
                     </div>
                 </div>
                 <div class="gomenu" data-aos="fade-up" data-aos-duration="2000">
-                    <a href=""><img src="https://via.placeholder.com/280x280.jpg" alt="이미지"></a>
-                    <div class="subtxt">
-                        <div id="subt_01">
+                    <a href=""><img src="https://via.placeholder.com/280x280.jpg" class="rImgmargine3" alt="이미지"></a>
+                    <div class="subtxt3">
+                        <div class="subt_01">
                             <p class="subtitle">뽀송 여름이불</p>
                         </div>
-                        <div id="subt_02">
+                        <div class="subt_02">
                             <p class="pick">♡</p>
                             <p class="price">28,000 원</p>
                         </div>
@@ -165,7 +186,6 @@
             </div>
         </div>
     </div>
-    <hr style="border: solid 1px #f0f0f0;">
 
     <!-- 섹션03 슬라이드 띠배너 -->
 
@@ -202,7 +222,7 @@
                     <p class="titletSub">부드러우니까 더운 여름에도 걱정없이
                         <br />시원하게 뽀송하게 자신있게!
                     </p>
-                    <input type="button" class="btn01" value="자세히 보기  >" style="width:160px; margin-top: 40px; color: #fff; background:#71625a; font-size: 12px; padding:5px 20px; border-radius: 0.2em; border: none;
+                    <input type="button" class="btn01" value="자세히 보기  >" style="width:160px; margin-top: 16px; color: #fff; background:#71625a; font-size: 12px; padding:5px 20px; border-radius: 0.2em; border: none;
                     font-weight: 500;" />
                 </div>
                 <div class="slideshopping">
@@ -282,65 +302,6 @@
 
     <!-- 섹션06 프로모션 -->
 
-    <div id="section06">
-        <div class="wrap">
-            <div class="title">
-                <p class="titlet">Best Seller</p>
-                <p class="titletSub">인기상품 모아보기</p>
-            </div>
-            <div id="slideIn06">
-                <div class="gomenu" data-aos="fade-up" data-aos-duration="2000">
-                    <a href=""><img src="https://via.placeholder.com/280x280.jpg" alt="이미지" style="margin-right: 26.6px;"></a>
-                    <div class="subtxt">
-                        <div id="subt_01">
-                            <p class="subtitle">뽀송 여름이불</p>
-                        </div>
-                        <div id="subt_02">
-                            <p class="pick">♡</p>
-                            <p class="price">28,000 원</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="gomenu" data-aos="fade-up" data-aos-duration="2000">
-                    <a href=""><img src="https://via.placeholder.com/280x280.jpg" alt="이미지" style="margin-right: 26.6px;"></a>
-                    <div class="subtxt">
-                        <div id="subt_01">
-                            <p class="subtitle">뽀송 여름이불</p>
-                        </div>
-                        <div id="subt_02">
-                            <p class="pick">♡</p>
-                            <p class="price">28,000 원</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="gomenu" data-aos="fade-up" data-aos-duration="2000">
-                    <a href=""><img src="https://via.placeholder.com/280x280.jpg" alt="이미지" style="margin-right: 26.6px;"></a>
-                    <div class="subtxt">
-                        <div id="subt_01">
-                            <p class="subtitle">뽀송 여름이불</p>
-                        </div>
-                        <div id="subt_02">
-                            <p class="pick">♡</p>
-                            <p class="price">28,000 원</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="gomenu" data-aos="fade-up" data-aos-duration="2000">
-                    <a href=""><img src="https://via.placeholder.com/280x280.jpg" alt="이미지"></a>
-                    <div class="subtxt">
-                        <div id="subt_01">
-                            <p class="subtitle">뽀송 여름이불</p>
-                        </div>
-                        <div id="subt_02">
-                            <p class="pick">♡</p>
-                            <p class="price">28,000 원</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
 
 
 
@@ -383,7 +344,7 @@
               },
             });
     </script>
-        <script>
+    <script>
             var swiper = new Swiper(".mySwiper2", {
               spaceBetween: 30,
               centeredSlides: true,
@@ -400,7 +361,25 @@
                 prevEl: ".swiper-button-prev",
               },
             });
-        </script>
+    </script>
+    <script>
+        var swiper = new Swiper(".mySwiper_m", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+    </script>
 
     <script>
       AOS.init();

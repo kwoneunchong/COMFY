@@ -131,46 +131,49 @@ ul { list-style: none; }
     font-weight: 500;
 } 
 
+#nav_mobile {
+    display: none;
+}
+
 /*0 ~ 767*/
 @media screen and (max-width: 767px) {
-#nav { display: none; }
-#nav_mobile { 
-    overflow: hidden;
-    position: relative;
-    width: 767px;
-    box-sizing: border-box;
-}
-#main_nav_mobile {
-    background-color: #DBCEC3;
-    height: 40px;
-    line-height: 40px;
-    position: absolute;
-    top: 120px;
-}
-#main_nav_mobile > ul {
-    overflow: hidden;
-    width: 100vw;
-    margin: 10px;
-    padding-bottom: 5px;
-    display: -webkit-box;
-}
-#main_nav > ul > li {
-    float: left;
-    margin: 0 auto;
-    width: 25%;
-    text-align: center;
-}
-#main_nav > ul > li > a {
-    font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 400;
-    color: #71625a;
-    font-size: 16px;
-}
+    #nav { display: none; }
+    #nav_mobile { 
+        width: 100vw;
+        display: block;
+        overflow: hidden;
+        position: relative;
+        box-sizing: border-box;
+    }
+    #main_nav_mobile {
+        background-color: #DBCEC3;
+        height: 40px;
+        line-height: 40px;
+        z-index: 999;
+    }
+    #main_nav_mobile > ul {
+        margin: 0 auto;
+        overflow: hidden;
+        width: 88vw;
+        display: -webkit-box;
+    }
+    #main_nav_mobile > ul > li {
+        float: left;
+        margin: 0 auto;
+        width: 22%;
+        text-align: center;
+    }
+    #main_nav_mobile > ul > li > a {
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 400;
+        color: #71625a;
+        font-size: 16px;
+    }
 
-#main_nav > ul > li > a:hover {
-    font-weight: 600;
+    #main_nav_mobile > ul > li > a:hover {
+        font-weight: 600;
+    }
 }
-
 
 
 
