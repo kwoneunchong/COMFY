@@ -165,7 +165,7 @@ ul { list-style: none; }
     #main_nav_mobile > ul > li {
         float: left;
         margin: 0 auto;
-        width: 22%;
+        width: 20%;
         text-align: center;
     }
     #main_nav_mobile > ul > li > a {
