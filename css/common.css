@@ -59,6 +59,18 @@ ul { list-style: none; }
   /* font-style: italic; */
 }
 
+.logoid > a {
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  margin-top: 40px;
+  color: #71625a;
+  font-weight: 400;
+  font-size: 56px;
+  height: 60px;
+  line-height: 60px;
+}
+
+
 .logosub {
     /* font-family: 'Raleway', sans-serif; */
     font-family: 'Montserrat', sans-serif;

@@ -21,7 +21,7 @@
 #lnb_select > ul > li {
     float: left;
     margin: 0 auto;
-    width: 120px;
+    width: 100px;
     text-align: center;
 }
 #lnb_select > ul > li > .sel_02 {
