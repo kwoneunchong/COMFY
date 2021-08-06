@@ -108,7 +108,8 @@
     #section01 {
         width: 88vw;
         margin: 0 auto;
-        padding-top: 40px;
+        padding-top: 0px;
+        padding-bottom: 40px;
     }
     .wrap {
         width: 88vw;
