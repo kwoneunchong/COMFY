@@ -21,7 +21,7 @@
 #lnb_select > ul > li {
     float: left;
     margin: 0 auto;
-    width: 108px;
+    width: 110px;
     text-align: center;
 }
 #lnb_select > ul > li > .sel_02 {
@@ -64,10 +64,125 @@
     }
 }
 
+
+#section01 {
+    display: block;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.wrap {
+    margin: 0 auto;
+    width: 1200px;
+    overflow: hidden;
+}
+
+.leftImg {
+    display: inline-block;
+    margin: 0 auto;
+    float: left;
+    /* width: 53%;
+    margin-right: 2%; */
+    width: 624px;
+    margin-right: 26px;
+    box-sizing: border-box;
+}
+.rightImg {
+    display: block;
+    margin: 0 auto;
+    float: left;
+    width: 550px;
+    box-sizing: border-box;
+}
+
+
+.rightImg01 {
+    width: 540px;
+}
+
+.sec01txt {
+    margin-bottom: 120px;
+}
+
+  /*0 ~ 767*/
+  @media screen and (max-width: 767px) {
+    #section01 {
+        width: 88vw;
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+    .wrap {
+        width: 88vw;
+    }
+    
+    .leftImg > img {
+        width: 88vw;
+        margin: 0 auto;
+    }
+    
+    .rightImg01 {
+        width: 88vw;
+    }
+
+    .rightImg > img{
+        width: 88vw;
+        margin: 0 auto;
+    }
+    
+    .sec01txt {
+        margin-bottom: 20px;
+    }
+}
+
+/* 768 ~ 1126 */
+@media screen and (min-width: 768px) and (max-width: 1126px) {
+    .wrap {
+        margin: 0 auto;
+        width: 88vw;
+        overflow: hidden;
+    }
+    
+    .leftImg {
+        display: inline-block;
+        margin: 0 auto;
+        float: left;
+        /* width: 53%;
+        margin-right: 2%; */
+        width: 46vw;
+        margin-right: 2vw;
+        box-sizing: border-box;
+    }
+    .rightImg {
+        display: block;
+        margin: 0 auto;
+        float: left;
+        width: 40vw;
+        box-sizing: border-box;
+    }
+
+    .rightImg01 {
+        width: 40vw;
+    }
+
+    .rightImg > img{
+        width: 40vw;
+        margin: 0 auto;
+    }
+
+    .leftImg > img {
+        width: 46vw;
+        margin: 0 auto;
+    }
+    .sec01txt {
+        margin-bottom: 5vw;
+    }
+
+}
+
+
 /* 섹션 06 */
 #section06 {
     margin-top: 60px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 #section06 > .wrap {
@@ -78,6 +193,14 @@
 
 .title { 
     text-align: center;
+}
+
+.titlet {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    color: #71625a;
+    height: 52px;
 }
 
 .titlet_inner {
