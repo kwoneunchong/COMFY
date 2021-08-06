@@ -285,6 +285,7 @@
     width: 280px;
 }
 .pick {
+    cursor: pointer;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 900;
     display: inline;

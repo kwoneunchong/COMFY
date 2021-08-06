@@ -282,6 +282,7 @@ body {
     width: 280px;
 }
 .pick {
+    cursor: pointer;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 900;
     display: inline;
@@ -532,12 +533,14 @@ body {
     width: 174px;
 }
 .pick_s {
+    cursor: pointer;
     float: right;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 900;
     display: inline;
     color: #ddCEb9;
 }
+
 .price_s {
     float: left;
     display: inline;
@@ -671,6 +674,7 @@ body {
     width: 280px;
 }
 .plus {
+    cursor: pointer;
     font-family: 'Noto Sans KR', sans-serif;
     display: inline;
     float: right;
@@ -678,6 +682,11 @@ body {
     color: #ddCEb9;
     font-weight: 500;
 }
+
+.plus:hover {
+    font-weight: 900;
+}
+
 .price {
     float: left;
     display: inline;
