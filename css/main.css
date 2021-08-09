@@ -484,6 +484,9 @@ body {
     width: 400px;
     margin-right: 26px;
 }
+.txt04 {
+    margin-top: 40px;
+}
 .rightImg04 {
     display: inline;
     margin: 0 auto;
@@ -494,7 +497,7 @@ body {
 }
 .slideshopping {
     overflow: hidden;
-    margin-top: 32px;
+    margin-top: 150px;
 }
 .shoppingart {
     float: left;
@@ -567,6 +570,9 @@ body {
         display: block;
         margin-bottom: 40px;
     }
+    .txt04 {
+        margin-top: 0px;
+    }
 }
 
 /* 768 ~ 1126 */
@@ -578,6 +584,9 @@ body {
         margin-top: 40px;
         margin-bottom: 40px;
         display: block;
+    }
+    .txt04 {
+        margin-top: 0px;
     }
 }
 
