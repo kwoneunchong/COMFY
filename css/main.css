@@ -219,13 +219,13 @@ body {
 }
 
 
-#slideIn {
+.slideIn {
     width: 1200px;
     overflow: hidden;
     margin-top: 30px;
 }
 
-#slideIn > .gomenu {
+.slideIn > .gomenu {
     /* margin-right: 2%; */
     float: left;
     display: block;
@@ -240,16 +240,16 @@ body {
     font-size: 16px;
 }
 
-#slideIn > .gomenu > p {
+.slideIn > .gomenu > p {
     margin-top: 10px;
     font-size: 12px;
 }
 
-#slideIn > .gomenu > a {
+.slideIn > .gomenu > a {
     margin: 0 auto;
     display: block;
 }
-#slideIn > .gomenu > img {
+.slideIn > .gomenu > img {
     display: block;
 }
 
@@ -318,18 +318,18 @@ body {
         width: 42vw;
     }
     
-    #slideIn {
+    .slideIn {
         width: 88vw;
         margin-top: 30px;
     }
     
-    #slideIn > .gomenu {
+    .slideIn > .gomenu {
         width: 44vw;
         float: left;
     }
     
     
-    #slideIn > .gomenu > a {
+    .slideIn > .gomenu > a {
         width: 42vw;
     }
     
@@ -380,10 +380,10 @@ body {
     .gomenu {
         width: 22vw;
     }
-    #slideIn {
+    .slideIn {
         width: 88vw;
     }
-    #slideIn > .gomenu > a {
+    .slideIn > .gomenu > a {
         width: 22vw;
     }
     
